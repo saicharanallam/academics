@@ -144,7 +144,6 @@ def manins():
     # return jsonify({'result' : output})
     return jsonify({'result' : "I got this"})
     
-# {{"name":"Andromeda Galaxy", "distance": "25321425"}, {"name":"Nigga Galaxy", "distance": "253214254555"}}
 
 @app.route('/newcol')
 def newcol():
